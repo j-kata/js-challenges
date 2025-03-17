@@ -10,3 +10,16 @@ Implement a function that accepts an optional initial value (integer) and return
   counter(); // 11
   counter(); // 12
 ```
+
+---
+
+### Toggle
+
+Implement a function that alternates between all the passed values each time it is called.
+
+```
+   const upDown = toggle('up', 'down');
+   upDown(); // 'up'
+   upDown(); // 'down'
+   upDown(); // 'up'
+```
