@@ -20,7 +20,7 @@ describe('counter', () => {
 
   describe('subsequent calls', () => {
     test('starting from default value', () => {
-      const c = counter(0);
+      const c = counter();
       expect(c()).toBe(0);
       expect(c()).toBe(1);
       expect(c()).toBe(2);

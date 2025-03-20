@@ -13,6 +13,19 @@ Implement a function that accepts an optional initial value (integer) and return
 
 ---
 
+### Counter 2
+
+Implement a function that accepts an optional initial value (integer) and returns an object with methods to increment and retrieve the value.
+
+```
+  const counter = customCounter(5);
+  counter.increment(-8); // -3
+  counter.increment(2); // -1
+  counter.increment(); // 0
+```
+
+---
+
 ### Toggle
 
 Implement a function that alternates between all the passed values each time it is called.
