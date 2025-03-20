@@ -22,3 +22,28 @@ export function toggle(...values) {
     return values[index];
   };
 }
+
+/**
+ * without recursion; sum() returns 0
+ */
+
+export function sum(num) {
+  let accum = 0;
+  const store = (val) => {
+    if (val == undefined) {
+      return accum;
+    } else {
+      accum += val;
+      return store;
+    }
+  };
+  return store(num);
+}
+
+/**
+ * with recursion; sum() returns [Function (anonymous)]
+ */
+
+// export function sum(num) {
+//   return (val) => (val == undefined ? num : sum(num + val));
+// }

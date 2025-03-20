@@ -36,3 +36,15 @@ Implement a function that alternates between all the passed values each time it 
    upDown(); // 'down'
    upDown(); // 'up'
 ```
+
+---
+
+### Sum
+
+Implement a function that allows repeated calling with a number as an argument and returns the sum of all numbers when called with no arguments.
+
+```
+  sum(1)(2)(3)(4)(); // 10
+  sum(4)(8)(); // 12
+  sum(5)(); // 5
+```
