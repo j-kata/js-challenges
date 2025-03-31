@@ -48,3 +48,17 @@ Implement a function that allows repeated calling with a number as an argument a
   sum(4)(8)(); // 12
   sum(5)(); // 5
 ```
+
+---
+
+### Once
+
+Implement a function that accepts a callback and restrict its invocation to at most once.
+
+```
+  const upDown = toggle('up', 'down');
+  const onlyUp = once(upDown)
+  onlyUp(); // 'up'
+  onlyUp();
+  onlyUp();
+```

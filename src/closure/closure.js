@@ -47,3 +47,13 @@ export function sum(num) {
 // export function sum(num) {
 //   return (val) => (val == undefined ? num : sum(num + val));
 // }
+
+export function once(callback) {
+  let called = false;
+
+  return function (...values) {
+    if (called) return;
+    called = true;
+    return callback(...values);
+  };
+}
