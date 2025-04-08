@@ -1,4 +1,4 @@
-import { toggle } from './closure';
+import { toggle } from '.';
 
 describe('toggle', () => {
   test('returns a function', () => {

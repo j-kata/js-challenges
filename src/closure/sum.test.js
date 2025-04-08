@@ -1,4 +1,4 @@
-import { sum } from './closure';
+import { sum } from '.';
 
 describe('sum', () => {
   describe('with an argument', () => {

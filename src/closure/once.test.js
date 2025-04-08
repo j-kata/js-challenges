@@ -1,4 +1,4 @@
-import { once, toggle } from './closure';
+import { once, toggle } from '.';
 
 describe('once', () => {
   describe('callback with no parameters', () => {

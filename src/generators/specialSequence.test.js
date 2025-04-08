@@ -1,4 +1,4 @@
-import { specialSequence } from './generators';
+import { specialSequence } from '.';
 
 describe('special sequence', function () {
   describe('20 elements', function () {

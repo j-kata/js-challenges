@@ -1,4 +1,4 @@
-import { counter } from './closure';
+import { counter } from '.';
 
 describe('counter', () => {
   test('returns a function', () => {

@@ -1,4 +1,4 @@
-import { customCounter } from './closure';
+import { customCounter } from '.';
 
 describe('custom counter', () => {
   test('returns an object', () => {
